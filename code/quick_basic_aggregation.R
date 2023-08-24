@@ -3,6 +3,7 @@ library(pbapply)
 res = readRDS('scratch/title_query_return_list.RDS')
 res2 = readRDS('scratch/abstract_query_return_list.RDS')
 
+
 res = append(res,res2)
 
 #### the works object query returns a complicated json file with nested items
